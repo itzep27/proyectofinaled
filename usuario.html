@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css ">
+  </head>
+  <body>
+    <link rel="stylesheet" href="diseño.css">
+    <hr>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <div class="btn-group w-100" role="group" aria-label="Basic example">
+      <a href="productos.html" class="btn btn-warning stretched-link">Productos/Servicios</a>
+      <a href="tiendas.html" class="btn btn-info stretched-link">Tiendas</a>
+      <a href="contacta.php" class="btn btn-primary stretched-link">Contáctenos</a>
+      </div>
+    <br><br><br>
+    <h1>Iniciar sesión</h1>
+      <center>
+        <div class="card" style="width: 19rem;">
+          <img src="img/canadiense.png" class="card-img-top" alt="...">
+          <div class="card-body">
+          <form action ="validar.php" method="POST">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Usuario</label>
+            <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="text" class="form-control" name="usuario" placeholder="&#Xf007;"> 
+          </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input style="font-family: 'Font Awesome 5 free'; font-weight: 700;" type="password" class="form-control" name="contraseña" placeholder="&#Xf023;">
+            </div>
+            <div class="mb-3 form-check">
+            </div>
+            <input class="btn btn-outline-success" type="submit" value="Aceptar" name="Enviar">
+            </form>
+            </div>
+            </div>
+            </center>
+  </body>
+</html>
